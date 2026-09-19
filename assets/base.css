@@ -1934,3 +1934,9 @@ main > .shopify-section:first-child .section:not(.disable-section-top-offset) {
   overflow-wrap: unset;
   max-width: 100%;
 }
+
+/* Anchor wrapper must not overflow card */
+.product-card a.contents {
+  min-width: 0;
+  max-width: 100%;
+}
