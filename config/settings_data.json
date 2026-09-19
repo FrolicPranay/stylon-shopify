@@ -108,6 +108,11 @@
         "type": "shopify://apps/snapty-theme-history/blocks/vault-head/01a0240f-4cdd-7ff9-a1b2-c7d62d635c74",
         "disabled": false,
         "settings": {}
+      },
+      "5204455638040268789": {
+        "type": "shopify://apps/snapty-theme-history/blocks/vault-body/01a0240f-4cdd-7ff9-a1b2-c7d62d635c74",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_palette": {
