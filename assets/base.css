@@ -1836,3 +1836,15 @@ main > .shopify-section:first-child .section:not(.disable-section-top-offset) {
     margin-top: calc(var(--header-height) * var(--transparent-header-offset-boolean) * -1);
   }
 }
+
+
+
+/*   My Changes  */
+
+.product-card .product-title,
+.card__heading a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
