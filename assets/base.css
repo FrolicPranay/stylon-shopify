@@ -1841,19 +1841,19 @@ main > .shopify-section:first-child .section:not(.disable-section-top-offset) {
 
 /*   My Changes  */
 
-/* Product title single-line truncation */
-.product-card .text-block {
-  overflow: hidden !important;
-  min-width: 0;
+/* Product title: 1 line + respect card padding */
+.product-card .text-component p,
+.product-card a.contents + * p,
+.product-card .spacing-style p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: unset;
+  max-width: 100%;
 }
 
-.product-card .text-block > * {
-  white-space: nowrap !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
-  text-wrap: nowrap !important;
-  overflow-wrap: normal !important;
-  word-break: normal !important;
-  display: block !important;
-  max-inline-size: 100% !important;
+/* Anchor wrapper must not overflow card */
+.product-card a.contents {
+  min-width: 0;
+  max-width: 100%;
 }
