@@ -1841,10 +1841,8 @@ main > .shopify-section:first-child .section:not(.disable-section-top-offset) {
 
 /*   My Changes  */
 
-.product-card .product-title,
-.card__heading a {
+.product-card .text-block {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  display: block;
 }
