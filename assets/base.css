@@ -1839,21 +1839,3 @@ main > .shopify-section:first-child .section:not(.disable-section-top-offset) {
 
 
 
-/*   My Changes  */
-
-/* Product title: 1 line + respect card padding */
-.product-card .text-component p,
-.product-card a.contents + * p,
-.product-card .spacing-style p {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  overflow-wrap: unset;
-  max-width: 100%;
-}
-
-/* Anchor wrapper must not overflow card */
-.product-card a.contents {
-  min-width: 0;
-  max-width: 100%;
-}
